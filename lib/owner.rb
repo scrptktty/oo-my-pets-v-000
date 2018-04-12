@@ -33,9 +33,7 @@ class Owner
 
 
   def buy_fish(name)
-    fishy = Fish.new(name)
-    pets[:fishes] << fishy
-
+    pets[:fishes] << Fish.new(name)
 
     # =(pets[:fishes], fishy)
     # <<(pets[:fishes], fishy)
@@ -49,8 +47,7 @@ class Owner
   end
 
   def buy_cat(name)
-    kitty = Cat.new(name)
-    pets[:cats] << kitty
+    pets[:cats] << Cat.new(name)
   end
 
   def walk_dogs
